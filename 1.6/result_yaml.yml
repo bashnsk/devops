@@ -5,7 +5,7 @@ metadata:
 entities:
   - logical_timestamp: 15
     vlan_id: 1
-  	ip_config:
+    ip_config:
       prefix_length: 0
       dhcp_options:
     	pool:
@@ -20,6 +20,6 @@ entities:
         domain_name: 'pul'
       pool:
         - range:
-        		10.1.12.151
+            10.1.12.151
             10.1.15.200
     uuid: 'edad06a3-29df-458d-974a-d7f32e951967'
